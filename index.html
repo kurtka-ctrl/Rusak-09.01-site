@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лето 2026 — Дневник воспоминаний</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page">
+
+  <header class="header">
+    <div class="header__container">
+      <a href="#" class="header__logo">Summer2026.</a>
+      
+      <button class="header__theme-btn" type="button" aria-label="Переключить тему" data-theme-toggle>
+        🌙 / ☀️
+      </button>
+
+      <button class="header__burger" type="button" aria-label="Открыть меню" data-burger>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+
+      <nav class="header__nav" data-nav>
+        <ul class="header__menu">
+          <li class="header__menu-item"><a class="header__menu-link" href="#hero">Главная</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="#gallery">Галерея</a></li>
+          <li class="header__menu-item"><a class="header__menu-link" href="#timeline">Хроника</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero" id="hero">
+      <div class="hero__container">
+        <span class="chip chip--accent">Воспоминания</span>
+        <h1 class="hero__title">Моё лето 2026: Главные моменты и события</h1>
+        <p class="hero__subtitle">Небольшая летопись трёх месяцев отдыха, путешествий и личных открытий.</p>
+        
+        <div class="hero__stats">
+          <div class="stat-card">
+            <span class="stat-card__number">60</span>
+            <span class="stat-card__label">Дней отдыха</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">5</span>
+            <span class="stat-card__label">Локаций</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">280</span>
+            <span class="stat-card__label">Матчей в доту</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="gallery__container">
+        <h2 class="gallery__title">Фотоплёнка сезона</h2>
+        
+        <div class="gallery__grid">
+          <article class="event-card">
+            <img class="event-card__image" src="IMG_20260619_215036.jpg" alt="Июньские события">
+            <div class="event-card__body">
+              <span class="chip">Июнь</span>
+              <h3 class="event-card__title">Практика и др</h3>
+              <p class="event-card__text">Практика, Дота и немного бухаловок скрасили месяц. На мой день рождения пришел только Артем, апероль шприц с пельменями из микроволновки зашли на ура. Частично обновил себе сетап, взял новые мышку с клавиатурой и наушниками, такими темпами дверной звонок перестанет звонить, а начнет кричать "Вацау ни ма".</p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <img class="event-card__image" src="IMG_20260730_180025.jpg" alt="Июльские события">
+            <div class="event-card__body">
+              <span class="chip">Июль</span>
+              <h3 class="event-card__title">Отходняк от лютого коктейля</h3>
+              <p class="event-card__text">Июль отметился поездкой на дачу к Обскому морю в компании 3 литров 40 градусных напитков и 2 человекоподобных алкашей. Шашлык был замечательный и великолепно зашел под виски, жалко только то что он также легко и вышел через 2 часа. Весь остаток июля я играл в доту с Артемом и Ратмиром, периодически выбираясь вместе с ними в город. Фото довольного Ратмира не имеет отношения к алко-трипу.</p>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <img class="event-card__image" src="Screenshot_2026-08-24-01-49-10-738_com.zhiliaoapp.musically-edit.jpg" alt="Августовские события">
+            <div class="event-card__body">
+              <span class="chip">Август</span>
+              <h3 class="event-card__title">Последний месяц, инт, и неделя игры в сталкер</h3>
+              <p class="event-card__text">Месяц начался с игры в доту, продолжился походом с бабушкой в театр на оркестр. Просмотр инта был наверное самым интересным событием, каждый раз когда мы с Артемом играли в доту, ездили в магазин, или просто на автомойку, в машине или дома постоянно звучал стрим Никса. Потом был день рождения у кента, было выпито 1,5 литра пива на рыло, при этом смотря инт. В тот день кент потратил окало 6к рублей на крутки, он выбил себе 2 арканы, 3 дота + и кучу конфет. Последнюю неделю я провел за игрой в сталкер, на удивление приятно состарившемуся ветерану славянского геймдева.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline" id="timeline">
+      <div class="timeline__container">
+        <h2 class="timeline__title">Галерея за лето</h2>
+        
+        <div class="accordion">
+          <details class="accordion__item" open>
+            <summary class="accordion__trigger">
+              <span class="accordion__month">Июнь 26</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="accordion__content">
+              <div class="photo-slider">
+                <div class="photo-slider__track">
+                  <img class="photo-slider__item" src="июнь 26/IMG_20260608_142234.jpg" alt="Июнь фото 1">
+                  <img class="photo-slider__item" src="июнь 26/IMG_20260610_221253.jpg" alt="Июнь фото 2">
+                  <img class="photo-slider__item" src="июнь 26/IMG_20260610_224020.jpg" alt="Июнь фото 3">
+                  <img class="photo-slider__item" src="июнь 26/IMG_20260611_213823.jpg" alt="Июнь фото 4">
+                  <img class="photo-slider__item" src="июнь 26/IMG_20260611_213837.jpg" alt="Июнь фото 5">
+                  <img class="photo-slider__item" src="июнь 26/IMG_20260613_174351.jpg" alt="Июнь фото 6">
+                  <img class="photo-slider__item" src="июнь 26/IMG_20260618_220610.jpg" alt="Июнь фото 7">
+                  <img class="photo-slider__item" src="июнь 26/IMG_20260619_215036.jpg" alt="Июнь фото 8">
+                  <img class="photo-slider__item" src="июнь 26/IMG_20260622_225326.jpg" alt="Июнь фото 9">
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <details class="accordion__item">
+            <summary class="accordion__trigger">
+              <span class="accordion__month">Июль 26</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="accordion__content">
+              <div class="photo-slider">
+                <div class="photo-slider__track">
+                  <img class="photo-slider__item" src="июль 26/photo1.jpg" alt="Июль фото 1">
+                  <img class="photo-slider__item" src="июль 26/photo2.jpg" alt="Июль фото 2">
+                  <img class="photo-slider__item" src="июль 26/photo3.jpg" alt="Июль фото 3">
+                  <img class="photo-slider__item" src="июль 26/photo4.jpg" alt="Июль фото 4">
+                  <img class="photo-slider__item" src="июль 26/photo5.jpg" alt="Июль фото 5">
+                  <img class="photo-slider__item" src="июль 26/photo7.jpg" alt="Июль фото 6">
+                  <img class="photo-slider__item" src="июль 26/photo8.jpg" alt="Июль фото 7">
+                  <img class="photo-slider__item" src="июль 26/photo9.jpg" alt="Июль фото 8">
+                  <img class="photo-slider__item" src="июль 26/photo10.jpg" alt="Июль фото 9">
+                  <img class="photo-slider__item" src="июль 26/photo11.jpg" alt="Июль фото 10">
+                  <img class="photo-slider__item" src="июль 26/photo12.jpg" alt="Июль фото 11">
+                  <img class="photo-slider__item" src="июль 26/photo13.jpg" alt="Июль фото 12">
+                  <img class="photo-slider__item" src="июль 26/photo15.jpg" alt="Июль фото 13">
+                  <img class="photo-slider__item" src="июль 26/IMG_20260728_182952.jpg" alt="Июль фото 14">
+                  <img class="photo-slider__item" src="июль 26/IMG_20260728_182955.jpg" alt="Июль фото 15">
+                  <img class="photo-slider__item" src="июль 26/IMG_20260728_193754.jpg" alt="Июль фото 16">
+                  <img class="photo-slider__item" src="июль 26/IMG_20260730_180028.jpg" alt="Июль фото 17">
+                </div>
+              </div>
+            </div>
+          </details>
+
+          <details class="accordion__item">
+            <summary class="accordion__trigger">
+              <span class="accordion__month">Август 26</span>
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="accordion__content">
+              <div class="photo-slider">
+                <div class="photo-slider__track">
+                  <img class="photo-slider__item" src="август 26/photoavg1.jpg" alt="Август фото 1">
+                  <img class="photo-slider__item" src="август 26/photoavg2.jpg" alt="Август фото 2">
+                  <img class="photo-slider__item" src="август 26/photoavg4.jpg" alt="Август фото 4">
+                  <img class="photo-slider__item" src="август 26/photoavg5.jpg" alt="Август фото 5">
+                  <img class="photo-slider__item" src="август 26/photoavg6.jpg" alt="Август фото 6">
+                  <img class="photo-slider__item" src="август 26/photoavg7.jpg" alt="Август фото 7">
+                  <img class="photo-slider__item" src="август 26/photoavg8.jpg" alt="Август фото 8">
+                  <img class="photo-slider__item" src="август 26/photoavg9.jpg" alt="Август фото 9">
+                </div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__copyright">Все фотографии были сделаны на Xiaomi 12s ultra.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
