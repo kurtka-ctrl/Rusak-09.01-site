@@ -218,7 +218,7 @@ html {
 }
 
 .gallery__title, .timeline__title {
-  font-size: 1.8rem;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 24px;
 }
@@ -283,7 +283,7 @@ html {
 
 .accordion__trigger {
   padding: 20px 24px;
-  font-size: 1.1rem;
+  font-size: 18px;
   font-weight: 600;
   cursor: pointer;
   display: flex;
@@ -297,7 +297,7 @@ html {
 }
 
 .accordion__icon {
-  font-size: 1.4rem;
+  font-size: 20px;
   transition: transform var(--transition-speed);
 }
 
@@ -359,5 +359,5 @@ html {
 
 .footer__copyright {
   color: var(--color-text-muted);
-  font-size: 0.9rem;
+  font-size: 20px;
 }
